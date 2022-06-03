@@ -1,9 +1,12 @@
 import React from 'react';
+import MensTopwear from '../Products/Mens/MensTopwear';
 import styles from "./Mens.module.css";
 
 const Mens = () => {
   return (
-    <div>Mens</div>
+    <div className={styles.products}>
+        <MensTopwear/>
+    </div>
   )
 }
 

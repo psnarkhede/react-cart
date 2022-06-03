@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 import {
   Breadcrumb,
   BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbSeparator,
-  IconButton,
 } from "@chakra-ui/react";
 
 import {
@@ -15,14 +12,11 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
 } from "@chakra-ui/react";
 
 import { Icon } from "@chakra-ui/react";
 import { BsCart4 } from "react-icons/bs";
+import Home from "../Home/Home";
 
 const Navbar = () => {
   return (
@@ -134,7 +128,6 @@ const Navbar = () => {
           </Breadcrumb>
         </div>
       </div>
-
      
     </div>
   );
